@@ -1,5 +1,5 @@
 # Educational AR Animations
-Simple ARCore experiment to visualize a better world for everyone!
+A set of Educational AR Animations developed for a London-based charity.
 
 # Release notes (v0.1):
 - Created an up-to-date AR Foundation project.
