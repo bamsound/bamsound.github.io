@@ -1,15 +1,8 @@
 # Educational AR Animations
 A set of Educational AR Animations developed for a London-based charity.
 
-# Release notes (v0.1):
-- Created an up-to-date AR Foundation project.
-- Defined final importing pipeline for Unity.
-- Fixed animations root motion, positioning and timing.
-- Tested animations in sync with audio guide file.
-- Implemented simple UI & interactions for testing.
-- Made adjustments to Unity graphics quality tiers.
-- Implemented AR Light Estimation.
-- Episode 5 fully implemented in Unity AR Foundation.
+# Release notes (v0.2):
+- Tweaked notifications on Episode 5.
 
 # Next steps:
 - Implement all 6 ITSY episodes in Unity.
