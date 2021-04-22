@@ -54,7 +54,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ep5-MessageC
+  m_Name: OLDEp5-MessageC
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:

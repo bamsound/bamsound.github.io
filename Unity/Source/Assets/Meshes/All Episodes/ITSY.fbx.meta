@@ -4,11 +4,23 @@ ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable:
   - first:
-      74: -248637116587387421
-    second: ITSY_B-Episode5
-  - first:
       74: 6444885693637995860
     second: ITSY-Ep1
+  - first:
+      74: -3332674872659260967
+    second: ITSY-Ep2
+  - first:
+      74: 1602714275175021050
+    second: ITSY-Ep3
+  - first:
+      74: -8385894303702711794
+    second: ITSY-Ep4
+  - first:
+      74: 6433807749845352491
+    second: ITSY-Ep5
+  - first:
+      74: -1639947766068689033
+    second: ITSY-Ep6
   externalObjects: {}
   materials:
     materialImportMode: 2

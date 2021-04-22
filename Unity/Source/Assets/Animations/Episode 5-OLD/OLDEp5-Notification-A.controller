@@ -11,7 +11,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -1112409828136453112}
-    m_Position: {x: 20, y: 110, z: 0}
+    m_Position: {x: 40, y: 110, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -42,7 +42,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 1246347730499622075, guid: 55e9814762ab9f141bf56b1eafa9954e, type: 3}
+  m_Motion: {fileID: 4520083949048530729, guid: 57126e9953a61b3428f3d112776f4903, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -54,7 +54,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ep5-MessageB
+  m_Name: OLDEp5-Notification-A
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:

@@ -310,6 +310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Episode1
       objectReference: {fileID: 0}
+    - target: {fileID: 5042200554956845806, guid: 4d61ed9287c3ea44f90793f18580637b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5042200554956845807, guid: 4d61ed9287c3ea44f90793f18580637b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -369,7 +373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5042200554956845806, guid: c0c907ef0fa9f8d4988415e02dcbffc7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5042200554956845807, guid: c0c907ef0fa9f8d4988415e02dcbffc7, type: 3}
       propertyPath: m_RootOrder

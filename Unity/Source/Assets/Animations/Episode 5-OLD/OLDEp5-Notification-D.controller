@@ -42,7 +42,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -3813825976384365609, guid: 6d1df3a0c3444f648a4f971153c5232a, type: 3}
+  m_Motion: {fileID: 2136829358975685796, guid: 245d17eb67b56614eb23cb247f9c6601, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -54,7 +54,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ep5-BlockNotification-B
+  m_Name: OLDEp5-Notification-D
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
