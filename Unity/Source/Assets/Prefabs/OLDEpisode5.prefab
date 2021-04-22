@@ -149,7 +149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5042200554956845807}
   m_Layer: 0
-  m_Name: Episode5
+  m_Name: OLDEpisode5
   m_TagString: Episode
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -242,7 +242,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 49cc35f89ce71a447bdc080f7d8ada37, type: 3}
+  m_audioClip: {fileID: 8300000, guid: beaa924e5902afd46965cb0cd7c4a70d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
