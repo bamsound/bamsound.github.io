@@ -12,7 +12,7 @@ public class ARTestingUI : MonoBehaviour
     public GameObject sessionOrigin;
 
     public GameObject[] episodes;
-    private int currentEpisode = 0;
+    public int currentEpisode = 0;
     
     private GameObject episodeContent;
     private GameObject[] episodeContents;
