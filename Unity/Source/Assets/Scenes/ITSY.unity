@@ -553,7 +553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RaycastManager: {fileID: 1762285815}
-  m_ObjectToPlace: {fileID: 5042200554956845806, guid: c0c907ef0fa9f8d4988415e02dcbffc7, type: 3}
+  m_ObjectToPlace: {fileID: 5042200554956845806, guid: 2090bedc1d8cee4499e70dcda90fb6c7, type: 3}
   yOffset: 0
   episode: {fileID: 0}
   episodes: []
