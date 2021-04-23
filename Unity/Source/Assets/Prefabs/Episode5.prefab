@@ -892,12 +892,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2905404069636411806, guid: 196af7bd2ac389c40874040d832dcd2b, type: 3}
       propertyPath: m_CastShadows
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 196af7bd2ac389c40874040d832dcd2b, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 46ef05d6dc7fe7f4bbb48c5ed9cfd94a, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 196af7bd2ac389c40874040d832dcd2b, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6007116615493373167, guid: 196af7bd2ac389c40874040d832dcd2b, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -1383,6 +1387,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b51072ee111ca894881df0ea34a223a6, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 96df27bc768d6aa44b9067fedbed9185, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96df27bc768d6aa44b9067fedbed9185, type: 3}
 --- !u!4 &8318624644330789446 stripped

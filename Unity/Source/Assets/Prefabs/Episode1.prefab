@@ -32,7 +32,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: bc9bf01400868e04db25b91e07c366b5, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -110,7 +110,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 72937f86a81871c41b8b8d99b71648da, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -426,9 +426,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -932658613361525849, guid: fa133ffeeb990c14893b98d7ff803455, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -200153307244862801, guid: fa133ffeeb990c14893b98d7ff803455, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa133ffeeb990c14893b98d7ff803455, type: 3}
       propertyPath: m_Name
       value: GirlF-Ep1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963714153214220329, guid: fa133ffeeb990c14893b98d7ff803455, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa133ffeeb990c14893b98d7ff803455, type: 3}
@@ -785,6 +797,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 27ad24f931f88434c986965ba06b0303, type: 2}
+    - target: {fileID: 5866666021909216657, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
 --- !u!4 &6795077050455622730 stripped
@@ -921,6 +937,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6f27b13a343c22b47a8f60ea4b6b1a6e, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 96df27bc768d6aa44b9067fedbed9185, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96df27bc768d6aa44b9067fedbed9185, type: 3}
 --- !u!4 &8318624644330789446 stripped
