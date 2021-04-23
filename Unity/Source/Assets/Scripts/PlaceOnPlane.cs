@@ -15,7 +15,7 @@ public class PlaceOnPlane : MonoBehaviour
     static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
     [SerializeField]
-    GameObject m_ObjectToPlace;
+    public GameObject m_ObjectToPlace;
 
     // Setting variables to handle AR 3D elements
     public float yOffset;

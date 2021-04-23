@@ -9,24 +9,27 @@ public class ARTestingUI : MonoBehaviour
 {
     
     // Setting variables to handle AR testing UI.
-    public GameObject sessionOrigin;    
+    public GameObject sessionOrigin;
 
-    public GameObject episode;
     public GameObject[] episodes;
+    private int currentEpisode = 0;
+    
+    private GameObject episodeContent;
+    private GameObject[] episodeContents;
 
-    public GameObject plane;
-    public GameObject[] planes;
+    private GameObject plane;
+    private GameObject[] planes;
     
     // Resets the AR Session and destroy every "Episode" prefab on the scene.
     public void ResetExperience()
     {
         sessionOrigin.GetComponent<ARPlaneManager>().enabled = true;
         
-        episodes = GameObject.FindGameObjectsWithTag("Episode");
+        episodeContents = GameObject.FindGameObjectsWithTag("Episode");
 
-        foreach (GameObject episode in episodes)
+        foreach (GameObject episodeContent in episodeContents)
         {
-            Destroy(episode);
+            Destroy(episodeContent);
         }
     }
 
@@ -42,5 +45,23 @@ public class ARTestingUI : MonoBehaviour
         {
             plane.SetActive(false);
         }
+    }
+
+    // Resets the AR Session and destroy every "Episode" prefab on the scene.
+    public void NextEpisode()
+    {
+        var placeOnPlaneScript = sessionOrigin.GetComponent<PlaceOnPlane>();
+
+        currentEpisode++;
+
+        if(currentEpisode > (episodes.Length - 1))
+        {
+            currentEpisode = 0;
+        }      
+
+        placeOnPlaneScript.m_ObjectToPlace = episodes[currentEpisode];
+        Debug.Log(currentEpisode);
+
+        ResetExperience();
     }
 }
