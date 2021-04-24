@@ -164,7 +164,7 @@ Transform:
   m_GameObject: {fileID: 5042200554956845806}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0125, y: 0.0125, z: 0.0125}
+  m_LocalScale: {x: 0.013, y: 0.013, z: 0.013}
   m_Children:
   - {fileID: 3705674157936763436}
   m_Father: {fileID: 0}
@@ -738,9 +738,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6718986994198312683, guid: 00ecfc9fa3474b6438a0730a99585989, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: -5450317935013476009, guid: 00ecfc9fa3474b6438a0730a99585989, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 36980949171833630, guid: 00ecfc9fa3474b6438a0730a99585989, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.012
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 00ecfc9fa3474b6438a0730a99585989, type: 3}
       propertyPath: m_Name
       value: Environment-Ep5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8020492748817809799, guid: 00ecfc9fa3474b6438a0730a99585989, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.012
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00ecfc9fa3474b6438a0730a99585989, type: 3}
