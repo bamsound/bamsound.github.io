@@ -444,13 +444,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 78215520480953086, guid: f5e9b5a08bbdb174aab6a99f5964a331, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 53abd62972fb4244ba06ec656fd25ab5, type: 2}
     - target: {fileID: 5042200554956845806, guid: f5e9b5a08bbdb174aab6a99f5964a331, type: 3}
       propertyPath: m_Name
       value: Episode3
       objectReference: {fileID: 0}
     - target: {fileID: 5042200554956845806, guid: f5e9b5a08bbdb174aab6a99f5964a331, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5042200554956845807, guid: f5e9b5a08bbdb174aab6a99f5964a331, type: 3}
       propertyPath: m_RootOrder
