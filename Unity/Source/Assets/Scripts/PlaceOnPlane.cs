@@ -22,6 +22,9 @@ public class PlaceOnPlane : MonoBehaviour
     public GameObject episode;
     public GameObject[] episodes;
     
+    // Setting variables to handle AR testing UI.
+    public ARTestingUI testingUI;
+
     // Update is called once per frame
     void Update()
     {
@@ -46,6 +49,8 @@ public class PlaceOnPlane : MonoBehaviour
                         var offsetHitPose = new Quaternion(hitPose.rotation.x, hitPose.rotation.y + yOffset, hitPose.rotation.z, hitPose.rotation.w);
 
                         Instantiate(m_ObjectToPlace, hitPose.position, offsetHitPose);
+
+                        testingUI.HideARUI();
                     }
                 }                
             }

@@ -733,6 +733,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1189805303962172856, guid: 9c67976732d5d8f4d859b88bb765855e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9c67976732d5d8f4d859b88bb765855e, type: 3}
       propertyPath: m_Name
       value: BoyB-Ep2
@@ -878,6 +882,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8520129142328167614, guid: 36c537e0a7527d047808451ced2790ec, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -6677802324215103281, guid: 36c537e0a7527d047808451ced2790ec, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -954,6 +962,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2549096686360957755, guid: 9e9263902903d3a469d21a5cf27c09ea, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2458534697810951561, guid: 9e9263902903d3a469d21a5cf27c09ea, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
@@ -1097,6 +1109,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0fb97a1641e3e041965b49ed2caa81c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7014295854158259297, guid: c0fb97a1641e3e041965b49ed2caa81c, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4062412901485273117, guid: c0fb97a1641e3e041965b49ed2caa81c, type: 3}
@@ -1264,6 +1280,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cc93ca7fa36965e4a9c4dc2d279403d7, type: 3}
       propertyPath: m_Name
       value: BoyA-Ep2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186264946232249428, guid: cc93ca7fa36965e4a9c4dc2d279403d7, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc93ca7fa36965e4a9c4dc2d279403d7, type: 3}

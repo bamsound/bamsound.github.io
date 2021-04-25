@@ -909,6 +909,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5092532271884445710, guid: 196af7bd2ac389c40874040d832dcd2b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 196af7bd2ac389c40874040d832dcd2b, type: 3}
       propertyPath: m_Name
       value: GirlA-Ep5
@@ -1404,6 +1408,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a86cecf39f9a22449a23e878956ccc1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8520129142328167614, guid: a86cecf39f9a22449a23e878956ccc1b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6677802324215103281, guid: a86cecf39f9a22449a23e878956ccc1b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5601310555113992028, guid: a86cecf39f9a22449a23e878956ccc1b, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a86cecf39f9a22449a23e878956ccc1b, type: 3}

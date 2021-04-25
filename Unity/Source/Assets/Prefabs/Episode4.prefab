@@ -488,6 +488,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1189805303962172856, guid: 6e8027e03e5021b4e8aa60472b97c2c4, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6e8027e03e5021b4e8aa60472b97c2c4, type: 3}
       propertyPath: m_Name
       value: BoyC-Ep4
@@ -699,6 +703,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5cf3b1131841f4344831416e9dd04dfc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8520129142328167614, guid: 5cf3b1131841f4344831416e9dd04dfc, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -6677802324215103281, guid: 5cf3b1131841f4344831416e9dd04dfc, type: 3}
@@ -1100,6 +1108,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4440089419942243968, guid: d5ec8c3f3d6e995469a8e15ae5102bc5, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880831981993278487, guid: d5ec8c3f3d6e995469a8e15ae5102bc5, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}

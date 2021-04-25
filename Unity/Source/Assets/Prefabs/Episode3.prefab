@@ -1070,6 +1070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GirlG-Ep3
       objectReference: {fileID: 0}
+    - target: {fileID: 2985203299055735489, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5228722834292993399, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -1362,6 +1366,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7547990286931712634, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
       propertyPath: m_Name
       value: BoyD-Ep3
@@ -1596,6 +1604,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4440089419942243968, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880831981993278487, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
@@ -2272,6 +2284,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8520129142328167614, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -6677802324215103281, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
