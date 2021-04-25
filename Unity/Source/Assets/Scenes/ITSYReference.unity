@@ -213,13 +213,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1160826862443160778, guid: fea273210771aca4ea3d1ebd9f26b259, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c2632dc84ca163147a7c2135b8ee9795, type: 2}
+    - target: {fileID: 2360198249612299813, guid: fea273210771aca4ea3d1ebd9f26b259, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 80c9306ef774beb47a0096a7fd34d169, type: 2}
     - target: {fileID: 5042200554956845806, guid: fea273210771aca4ea3d1ebd9f26b259, type: 3}
       propertyPath: m_Name
       value: Episode1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042200554956845806, guid: fea273210771aca4ea3d1ebd9f26b259, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5042200554956845807, guid: fea273210771aca4ea3d1ebd9f26b259, type: 3}
       propertyPath: m_RootOrder
@@ -265,6 +269,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6646663889987239569, guid: fea273210771aca4ea3d1ebd9f26b259, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 916e6bc127ade0f4c9369942d6fcb1c6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fea273210771aca4ea3d1ebd9f26b259, type: 3}
 --- !u!1001 &404721224
@@ -515,7 +523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5042200554956845806, guid: e68c106a5ab2e4f4fadb6ef0b3c622ee, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5042200554956845807, guid: e68c106a5ab2e4f4fadb6ef0b3c622ee, type: 3}
       propertyPath: m_RootOrder

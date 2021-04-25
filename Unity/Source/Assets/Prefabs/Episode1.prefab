@@ -72,7 +72,7 @@ Animator:
   m_GameObject: {fileID: 435468662994380356}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 80c9306ef774beb47a0096a7fd34d169, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -91,7 +91,7 @@ Animator:
   m_GameObject: {fileID: 470455157161871380}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 196af7bd2ac389c40874040d832dcd2b, type: 3}
-  m_Controller: {fileID: 9100000, guid: bc9bf01400868e04db25b91e07c366b5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0b6ff66546e6182429f56d575f81146b, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -181,7 +181,7 @@ Animator:
   m_GameObject: {fileID: 2593619329808988280}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c2632dc84ca163147a7c2135b8ee9795, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -231,7 +231,7 @@ Animator:
   m_GameObject: {fileID: 3113186298109524683}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 196af7bd2ac389c40874040d832dcd2b, type: 3}
-  m_Controller: {fileID: 9100000, guid: 72937f86a81871c41b8b8d99b71648da, type: 2}
+  m_Controller: {fileID: 9100000, guid: 97a8c40653d1a3a40b559d618f304120, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -250,7 +250,7 @@ Animator:
   m_GameObject: {fileID: 3786307361817923791}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 916e6bc127ade0f4c9369942d6fcb1c6, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -566,6 +566,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6497789644861886127, guid: fa133ffeeb990c14893b98d7ff803455, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa133ffeeb990c14893b98d7ff803455, type: 3}
 --- !u!4 &994368447210197678 stripped
@@ -714,7 +718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7209215062493575157, guid: 13ffe26e2803e354ba52bedd479961d1, type: 3}
       propertyPath: m_CastShadows
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13ffe26e2803e354ba52bedd479961d1, type: 3}
@@ -779,9 +783,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8520129142328167614, guid: 571b9c51dc2a8304694e10498c727cb1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6677802324215103281, guid: 571b9c51dc2a8304694e10498c727cb1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5601310555113992028, guid: 571b9c51dc2a8304694e10498c727cb1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 571b9c51dc2a8304694e10498c727cb1, type: 3}
       propertyPath: m_Name
       value: ITSY-Ep1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534349250963616978, guid: 571b9c51dc2a8304694e10498c727cb1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0001
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 571b9c51dc2a8304694e10498c727cb1, type: 3}
       propertyPath: m_Avatar
@@ -987,9 +1007,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8109475531208251866, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6566885327121877972, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1694855659205418563, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -100790659255033022, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
       propertyPath: m_Name
       value: BoyA-Ep1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186264946232249428, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
       propertyPath: m_Controller
