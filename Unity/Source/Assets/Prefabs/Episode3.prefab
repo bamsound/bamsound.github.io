@@ -111,7 +111,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 196af7bd2ac389c40874040d832dcd2b, type: 3}
   m_Controller: {fileID: 9100000, guid: 54eb744ff26ba164cb0afb8bf5446ef3, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -209,7 +209,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
   m_Controller: {fileID: 9100000, guid: 35c5514b67991d244a7d4caf841668f8, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -564,7 +564,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c38a40b075f3df043a9f02d54dcc385b, type: 3}
   m_Controller: {fileID: 9100000, guid: 0a92333d2de6af946b2b742da88e23c6, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -822,7 +822,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 571b9c51dc2a8304694e10498c727cb1, type: 3}
   m_Controller: {fileID: 9100000, guid: 6b6bfdcd36cdfb941887f1dd5c039a4b, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -1058,17 +1058,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8478614572714271593, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8293389739732478213, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -6941922763823641978, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
       propertyPath: m_CastShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6941922763823641978, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5764016903206544338, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4734419880649145400, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2692855471934314080, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 70387788754196110, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
       propertyPath: m_Name
       value: GirlG-Ep3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910772827004321920, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2985203299055735489, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
       propertyPath: m_CastShadows
@@ -1077,6 +1105,14 @@ PrefabInstance:
     - target: {fileID: 5228722834292993399, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
       propertyPath: m_CastShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228722834292993399, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5870391933760902707, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f3073c846d5b2d4ba80fd8023bcad76, type: 3}
@@ -1366,9 +1402,25 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8186361170862467853, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -7547990286931712634, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
       propertyPath: m_CastShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7547990286931712634, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6316057868758424485, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 371131437787534681, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
       propertyPath: m_Name
@@ -1378,9 +1430,33 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1960948904593349336, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2238836533472580082, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584220322429277984, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3749664523419151162, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7670140767536425504, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
       propertyPath: m_CastShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7670140767536425504, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175965540327720625, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10507990ad624eb4f9605c936d71735a, type: 3}
@@ -1551,6 +1627,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8913169914155014700, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1595,21 +1675,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2472312505512936809, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -845332776996214002, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
       propertyPath: m_Name
       value: BoyE-Ep3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3012909848589375180, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3267070496677364891, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3267070496677364891, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921695528468676249, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4440089419942243968, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4440089419942243968, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5880831981993278487, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
       propertyPath: m_CastShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5880831981993278487, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010987299818562605, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4bd202312a12404eb1b9ab1478a2bf1, type: 3}
@@ -2290,17 +2402,53 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8520129142328167614, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -6677802324215103281, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
       propertyPath: m_CastShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6677802324215103281, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5601310555113992028, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5601310555113992028, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 687900781935784675, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
       propertyPath: m_Name
       value: ITSY-Ep3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354211709795672184, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829011676100362545, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401223909479398435, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869214765355063684, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8723964289517023482, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5425a8673d4a3774486b51c391459bc4, type: 3}
