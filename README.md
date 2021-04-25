@@ -1,11 +1,13 @@
 # Educational AR Animations
 A set of Educational AR Animations developed for a London-based charity.
 
-# Release notes (v0.5):
+# Release notes (v0.6):
 - Implemented all 6 ITSY episodes in Unity.
 - Corrected all 6 animations based on final script.
 - Tested and tweaked every episode for AR.
 - Implemented basic UI for cycling between episodes.
+- Added light estimation to the entire app.
+- Quality of Life improvements (prevent screen dimming, culling, etc.)
 
 # Instructions:
 
