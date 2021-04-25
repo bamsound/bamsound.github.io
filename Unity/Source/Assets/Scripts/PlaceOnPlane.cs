@@ -15,13 +15,16 @@ public class PlaceOnPlane : MonoBehaviour
     static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
     [SerializeField]
-    GameObject m_ObjectToPlace;
+    public GameObject m_ObjectToPlace;
 
     // Setting variables to handle AR 3D elements
     public float yOffset;
     public GameObject episode;
     public GameObject[] episodes;
     
+    // Setting variables to handle AR testing UI.
+    public ARTestingUI testingUI;
+
     // Update is called once per frame
     void Update()
     {
@@ -46,6 +49,8 @@ public class PlaceOnPlane : MonoBehaviour
                         var offsetHitPose = new Quaternion(hitPose.rotation.x, hitPose.rotation.y + yOffset, hitPose.rotation.z, hitPose.rotation.w);
 
                         Instantiate(m_ObjectToPlace, hitPose.position, offsetHitPose);
+
+                        testingUI.HideARUI();
                     }
                 }                
             }
