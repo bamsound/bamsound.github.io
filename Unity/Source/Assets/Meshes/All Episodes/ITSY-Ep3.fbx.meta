@@ -1,26 +1,11 @@
 fileFormatVersion: 2
-guid: 96df27bc768d6aa44b9067fedbed9185
+guid: 5425a8673d4a3774486b51c391459bc4
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable:
   - first:
-      74: 6444885693637995860
-    second: ITSY-Ep1
-  - first:
-      74: -3332674872659260967
-    second: ITSY-Ep2
-  - first:
       74: 1602714275175021050
     second: ITSY-Ep3
-  - first:
-      74: -8385894303702711794
-    second: ITSY-Ep4
-  - first:
-      74: 6433807749845352491
-    second: ITSY-Ep5
-  - first:
-      74: -1639947766068689033
-    second: ITSY-Ep6
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -108,11 +93,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 571b9c51dc2a8304694e10498c727cb1, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
