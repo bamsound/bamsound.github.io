@@ -225,6 +225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Episode1
       objectReference: {fileID: 0}
+    - target: {fileID: 5042200554956845806, guid: fea273210771aca4ea3d1ebd9f26b259, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5042200554956845807, guid: fea273210771aca4ea3d1ebd9f26b259, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -520,10 +524,6 @@ PrefabInstance:
     - target: {fileID: 5042200554956845806, guid: e68c106a5ab2e4f4fadb6ef0b3c622ee, type: 3}
       propertyPath: m_Name
       value: Episode2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5042200554956845806, guid: e68c106a5ab2e4f4fadb6ef0b3c622ee, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5042200554956845807, guid: e68c106a5ab2e4f4fadb6ef0b3c622ee, type: 3}
       propertyPath: m_RootOrder
