@@ -371,7 +371,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.4
+    m_Strength: 1
     m_Bias: 0
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -456,6 +456,7 @@ GameObject:
   - component: {fileID: 1335839541}
   - component: {fileID: 1335839540}
   - component: {fileID: 1335839539}
+  - component: {fileID: 1335839542}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -576,6 +577,19 @@ MonoBehaviour:
   m_PlacedPrefab: {fileID: 5042200554956845806, guid: fea273210771aca4ea3d1ebd9f26b259,
     type: 3}
   m_MaxNumberOfObjectsToPlace: 1
+--- !u!114 &1335839542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335839533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 413735709a1b27546916e3b9882c9c0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sessionOrigin: {fileID: 1335839533}
 --- !u!1 &2146458540
 GameObject:
   m_ObjectHideFlags: 0
