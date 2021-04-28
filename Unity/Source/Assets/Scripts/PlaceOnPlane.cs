@@ -1,58 +1,78 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
+[RequireComponent(typeof(ARRaycastManager))]
 public class PlaceOnPlane : MonoBehaviour
 {
-    
-    // AR setup required to detect planes
     [SerializeField]
+    [Tooltip("Instantiates this prefab on a plane at the touch location.")]
+    GameObject m_PlacedPrefab;
+
+    /// <summary>
+    /// The prefab to instantiate on touch.
+    /// </summary>
+    public GameObject placedPrefab
+    {
+        get { return m_PlacedPrefab; }
+        set { m_PlacedPrefab = value; }
+    }
+
+    /// <summary>
+    /// The object instantiated as a result of a successful raycast intersection with a plane.
+    /// </summary>
+    public GameObject spawnedObject { get; private set; }
+    public GameObject[] episodes;
+
+    /// <summary>
+    /// Invoked whenever an object is placed in on a plane.
+    /// </summary>
+    public static event Action onPlacedObject;
+
     ARRaycastManager m_RaycastManager;
 
     static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
-
-    [SerializeField]
-    public GameObject m_ObjectToPlace;
-
-    // Setting variables to handle AR 3D elements
-    public float yOffset;
-    public GameObject episode;
-    public GameObject[] episodes;
     
-    // Setting variables to handle AR testing UI.
-    public ARTestingUI testingUI;
+    [SerializeField]
+    int m_MaxNumberOfObjectsToPlace = 1;
 
-    // Update is called once per frame
+    int m_NumberOfPlacedObjects = 0;
+
+    void Awake()
+    {
+        m_RaycastManager = GetComponent<ARRaycastManager>();
+    }
+
     void Update()
     {
-        if(Input.touchCount > 0)
+        if (Input.touchCount > 0)
         {
-            
-            // Restricts only one "Episode" prefab at the time.
-            episodes = GameObject.FindGameObjectsWithTag("Episode");
+            Touch touch = Input.GetTouch(0);
 
-            if (episodes.Length <= 0)
+            if (touch.phase == TouchPhase.Began)
             {
-
-                // Upon successfull touch register, instantiate an episode on the scene, with a y offset.
-                Touch touch = Input.GetTouch(0);
-
-                if(touch.phase == TouchPhase.Began)
+                if (m_RaycastManager.Raycast(touch.position, s_Hits, TrackableType.PlaneWithinPolygon))
                 {
-                    if(m_RaycastManager.Raycast(touch.position, s_Hits, TrackableType.PlaneWithinPolygon))
+                    Pose hitPose = s_Hits[0].pose;
+
+                    if (m_NumberOfPlacedObjects < m_MaxNumberOfObjectsToPlace)
                     {
-                        Pose hitPose = s_Hits[0].pose;
-
-                        var offsetHitPose = new Quaternion(hitPose.rotation.x, hitPose.rotation.y + yOffset, hitPose.rotation.z, hitPose.rotation.w);
-
-                        Instantiate(m_ObjectToPlace, hitPose.position, offsetHitPose);
-
-                        testingUI.HideARUI();
+                        spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
+                        
+                        m_NumberOfPlacedObjects++;
                     }
-                }                
+                    else
+                    {
+                        spawnedObject.transform.SetPositionAndRotation(hitPose.position, hitPose.rotation);
+                    }
+                    
+                    if (onPlacedObject != null)
+                    {
+                        onPlacedObject();
+                    }
+                }
             }
         }
     }

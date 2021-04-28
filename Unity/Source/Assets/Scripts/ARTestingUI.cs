@@ -59,7 +59,7 @@ public class ARTestingUI : MonoBehaviour
             currentEpisode = 0;
         }      
 
-        placeOnPlaneScript.m_ObjectToPlace = episodes[currentEpisode];
+        //placeOnPlaneScript.m_ObjectToPlace = episodes[currentEpisode];
         Debug.Log(currentEpisode);
 
         ResetExperience();
