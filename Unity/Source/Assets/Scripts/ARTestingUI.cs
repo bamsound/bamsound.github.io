@@ -50,7 +50,7 @@ public class ARTestingUI : MonoBehaviour
     // Resets the AR Session and destroy every "Episode" prefab on the scene.
     public void NextEpisode()
     {
-        var placeOnPlaneScript = sessionOrigin.GetComponent<PlaceOnPlane>();
+        //var placeOnPlaneScript = sessionOrigin.GetComponent<PlaceOnPlane>();
 
         currentEpisode++;
 
