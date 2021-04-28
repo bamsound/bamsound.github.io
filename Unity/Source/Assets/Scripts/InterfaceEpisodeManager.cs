@@ -20,9 +20,15 @@ public class InterfaceEpisodeManager : MonoBehaviour
         menuManager = GameObject.Find("EpisodeManager");
 
         ARSelectScript = menuManager.GetComponent<ARSceneSelectUI>();
-        placeOnPlaneScript = sessionOrigin.GetComponent<PlaceObjectsOnPlane>();
-
-        placeOnPlaneScript.placedPrefab = ARSelectScript.episode;
+        if (sessionOrigin == null)
+        {
+            return;
+        }
+        else
+        {
+            placeOnPlaneScript = sessionOrigin.GetComponent<PlaceObjectsOnPlane>();
+            placeOnPlaneScript.placedPrefab = ARSelectScript.episode;
+        }
     }
 
     public void SendITSYScene(GameObject chosenPrefab)
