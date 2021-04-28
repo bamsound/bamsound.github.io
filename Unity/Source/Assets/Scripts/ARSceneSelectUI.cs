@@ -10,11 +10,21 @@ public class ARSceneSelectUI : MonoBehaviour
 
 public GameObject episode;
 
+private static GameObject instance;
+
     // You can use it to make this GameObject not to destroy when scene unloads.
     void Awake() 
     {
-        DontDestroyOnLoad(transform.gameObject);
-        Debug.Log("My name is EpisodeManager and I will NEVER be destroyed!");
+        DontDestroyOnLoad(gameObject);
+
+        if (instance == null)
+        {
+            instance = gameObject;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void LoadITSYScene(GameObject chosenEpisode)
@@ -22,11 +32,5 @@ public GameObject episode;
         episode = chosenEpisode;
         LoaderUtility.Initialize();
         SceneManager.LoadScene("ITSY", LoadSceneMode.Single);
-        Debug.Log("Loading a scene with prefab " + episode + " loaded!");
-    }
-
-    void Update()
-    {
-        Debug.Log("My name is EpisodeManager and i'm alive!");
     }
 }
