@@ -9,6 +9,7 @@ public class ARSceneSelectUI : MonoBehaviour
 {
 
 public GameObject episode;
+private GameObject session;
 
 private static GameObject instance;
 
@@ -29,7 +30,19 @@ private static GameObject instance;
 
     public void LoadITSYScene(GameObject chosenEpisode)
     {   
-        episode = chosenEpisode;
+        session = GameObject.Find("AR Session");
+        
+        if (session != null)
+        {
+            var sessionScript = session.GetComponent<ARSession>();
+            sessionScript.Reset();
+        }
+
+        if (chosenEpisode != null)
+        {
+            episode = chosenEpisode;
+        }
+
         LoaderUtility.Initialize();
         SceneManager.LoadScene("ITSY", LoadSceneMode.Single);
     }
