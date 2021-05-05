@@ -1,11 +1,3 @@
-/*
-* Hello there :)
-* 
-* I'm happy to be read
-* Sadly my author didn't wrote his name :'( too bad
-* I guess I'm free then
-*/
-
 using System.Collections.Generic;
 using UnityEditor;
 
