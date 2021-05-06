@@ -33,6 +33,7 @@ public class InterfaceEpisodeManager : MonoBehaviour
 
     public void SendITSYScene(GameObject chosenPrefab)
     {   
+        ARSelectScript.shownMenu = true;
         ARSelectScript.LoadITSYScene(chosenPrefab);
     }
 
