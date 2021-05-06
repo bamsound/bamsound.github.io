@@ -3884,6 +3884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   episode: {fileID: 5042200554956845806, guid: fea273210771aca4ea3d1ebd9f26b259, type: 3}
+  shownMenu: 0
 --- !u!1 &1725414069
 GameObject:
   m_ObjectHideFlags: 0
