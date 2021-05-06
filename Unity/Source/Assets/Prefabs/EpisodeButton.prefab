@@ -561,7 +561,7 @@ MonoBehaviour:
     m_Left: 30
     m_Right: 20
     m_Top: 20
-    m_Bottom: 20
+    m_Bottom: 30
   m_ChildAlignment: 3
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
@@ -754,7 +754,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 6
-    m_MaxSize: 33
+    m_MaxSize: 29
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
