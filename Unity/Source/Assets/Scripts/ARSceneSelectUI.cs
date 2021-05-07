@@ -10,6 +10,7 @@ public class ARSceneSelectUI : MonoBehaviour
 
 public GameObject episode;
 public bool shownMenu = false;
+public bool shownEpisode = false;
 private GameObject session;
 
 private static GameObject instance;

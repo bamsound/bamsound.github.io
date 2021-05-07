@@ -20,7 +20,7 @@ public class ITSYUIManager : MonoBehaviour
         menuManager = GameObject.Find("EpisodeManager");
         ARSelectScript = menuManager.GetComponent<ARSceneSelectUI>();
 
-        if (ARSelectScript.shownMenu == false)
+        if (ARSelectScript.shownEpisode == false)
         {
             ShowInstructions();
         }

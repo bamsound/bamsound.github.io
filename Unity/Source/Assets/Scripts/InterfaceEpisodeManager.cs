@@ -39,6 +39,7 @@ public class InterfaceEpisodeManager : MonoBehaviour
 
     public void LoadMenu()
     {   
+        ARSelectScript.shownEpisode = true;
         LoaderUtility.Initialize();
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }

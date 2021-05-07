@@ -19,6 +19,7 @@ public class MenuInteractions : MonoBehaviour
         
         menuManager = GameObject.Find("EpisodeManager");
         ARSelectScript = menuManager.GetComponent<ARSceneSelectUI>();
+        
         if (ARSelectScript.shownMenu == true)
         {
             CloseWelcomeMenu();
