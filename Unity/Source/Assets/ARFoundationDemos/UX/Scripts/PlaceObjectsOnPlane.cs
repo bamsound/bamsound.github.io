@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
@@ -44,6 +45,15 @@ public class PlaceObjectsOnPlane : MonoBehaviour
         m_RaycastManager = GetComponent<ARRaycastManager>();
     }
 
+    private bool IsPointerOverUIObject()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
+    }
+
     void Update()
     {
         if (Input.touchCount > 0)
@@ -52,24 +62,27 @@ public class PlaceObjectsOnPlane : MonoBehaviour
 
             if (touch.phase == TouchPhase.Began)
             {
-                if (m_RaycastManager.Raycast(touch.position, s_Hits, TrackableType.PlaneWithinPolygon))
+                if (!IsPointerOverUIObject())
                 {
-                    Pose hitPose = s_Hits[0].pose;
+                    if (m_RaycastManager.Raycast(touch.position, s_Hits, TrackableType.PlaneWithinPolygon))
+                    {
+                        Pose hitPose = s_Hits[0].pose;
 
-                    if (m_NumberOfPlacedObjects < m_MaxNumberOfObjectsToPlace)
-                    {
-                        spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
+                        if (m_NumberOfPlacedObjects < m_MaxNumberOfObjectsToPlace)
+                        {
+                            spawnedObject = Instantiate(m_PlacedPrefab, hitPose.position, hitPose.rotation);
+                            
+                            m_NumberOfPlacedObjects++;
+                        }
+                        else
+                        {
+                            spawnedObject.transform.SetPositionAndRotation(hitPose.position, hitPose.rotation);
+                        }
                         
-                        m_NumberOfPlacedObjects++;
-                    }
-                    else
-                    {
-                        spawnedObject.transform.SetPositionAndRotation(hitPose.position, hitPose.rotation);
-                    }
-                    
-                    if (onPlacedObject != null)
-                    {
-                        onPlacedObject();
+                        if (onPlacedObject != null)
+                        {
+                            onPlacedObject();
+                        }
                     }
                 }
             }
