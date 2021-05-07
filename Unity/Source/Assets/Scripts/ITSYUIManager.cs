@@ -44,6 +44,7 @@ public class ITSYUIManager : MonoBehaviour
         menuButton.SetActive(true);
         subMenuOverlay.SetActive(false);
         instructions.SetActive(false);
+        ARSelectScript.shownEpisode = true;
     }
 
     public void LearnMore()
