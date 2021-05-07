@@ -62,6 +62,7 @@ public class PlaceObjectsOnPlane : MonoBehaviour
 
             if (touch.phase == TouchPhase.Began)
             {
+                // Added part to prevent touch input through UI elements.
                 if (!IsPointerOverUIObject())
                 {
                     if (m_RaycastManager.Raycast(touch.position, s_Hits, TrackableType.PlaneWithinPolygon))

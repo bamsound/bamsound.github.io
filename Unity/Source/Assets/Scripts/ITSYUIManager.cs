@@ -11,11 +11,19 @@ public class ITSYUIManager : MonoBehaviour
     public GameObject subMenuOverlay;
     public GameObject instructions;
 
+    private GameObject menuManager;
+    private ARSceneSelectUI ARSelectScript;
+
     public void Start()
     {
         subMenu.SetActive(false);
-        subMenuOverlay.SetActive(false);
-        instructions.SetActive(false);
+        menuManager = GameObject.Find("EpisodeManager");
+        ARSelectScript = menuManager.GetComponent<ARSceneSelectUI>();
+
+        if (ARSelectScript.shownMenu == false)
+        {
+            ShowInstructions();
+        }
     }
 
     public void ToggleSubMenu()
@@ -40,6 +48,8 @@ public class ITSYUIManager : MonoBehaviour
 
     public void LearnMore()
     {
+        subMenu.SetActive(!subMenu.activeInHierarchy);
+        subMenuOverlay.SetActive(!subMenuOverlay.activeInHierarchy);
         Application.OpenURL("https://www.bekindmovement.co.uk/");
     }
 }
