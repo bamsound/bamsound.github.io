@@ -1,15 +1,14 @@
 # Educational AR Animations
 A set of Educational AR Animations developed for a London-based charity.
 
-# Release notes (v0.8):
-- Created placeholder Splash Screen for the app.
-- Implemented a responsive Main Menu UI.
-- Implemented a responsive Runtime UI.
-    - Added expandable buttons with multiple functions.
-    - Added screen overlay.
-    - Added text instructions for the experience.
-- Added a check to avoid showing instructions and welcome screen again.
-- Quality of Life (QoL) improvements on the app's user experience.
+# Release notes (v1.0):
+- Imported all new audio tracks.
+- Implemented Patka scarf on Ep. 3.
+- Fixed project's materials and colors.
+- Updated lightning & quality settings.
+- Updated project settings for release.
+- Added final Splash Screen.
+- Added default App Icon.
 
 # Instructions:
 
