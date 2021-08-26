@@ -17,12 +17,17 @@ public class ITSYUIManager : MonoBehaviour
     public void Start()
     {
         subMenu.SetActive(false);
+        menuButton.SetActive(true);
         menuManager = GameObject.Find("EpisodeManager");
         ARSelectScript = menuManager.GetComponent<ARSceneSelectUI>();
 
         if (ARSelectScript.shownEpisode == false)
         {
             ShowInstructions();
+        }
+        else
+        {
+            menuButton.SetActive(true);
         }
     }
 
